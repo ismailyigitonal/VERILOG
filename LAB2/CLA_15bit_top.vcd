@@ -1,0 +1,424 @@
+$date
+	Mon Nov 25 12:37:29 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module CLA_15bit_tb $end
+$var wire 15 ! S [14:0] $end
+$var wire 1 " Ovf $end
+$var wire 1 # Cout $end
+$var reg 15 $ A [14:0] $end
+$var reg 15 % B [14:0] $end
+$var reg 1 & mode $end
+$scope module dut $end
+$var wire 15 ' A [14:0] $end
+$var wire 15 ( B [14:0] $end
+$var wire 1 " OVF $end
+$var wire 1 & mode $end
+$var wire 15 ) S [14:0] $end
+$var wire 1 # Cout $end
+$var wire 5 * Carry_out [4:0] $end
+$scope module CLA0 $end
+$var wire 3 + C [2:0] $end
+$var wire 1 & Cin $end
+$var wire 3 , D [2:0] $end
+$var wire 3 - Gen [2:0] $end
+$var wire 3 . Propagate [2:0] $end
+$var wire 3 / RES [2:0] $end
+$var wire 1 & mode $end
+$var wire 3 0 D_situation [2:0] $end
+$var wire 4 1 Carry_out [3:0] $end
+$var wire 1 2 Carry $end
+$upscope $end
+$scope module CLA1 $end
+$var wire 3 3 C [2:0] $end
+$var wire 1 4 Cin $end
+$var wire 3 5 D [2:0] $end
+$var wire 3 6 Gen [2:0] $end
+$var wire 3 7 Propagate [2:0] $end
+$var wire 3 8 RES [2:0] $end
+$var wire 1 & mode $end
+$var wire 3 9 D_situation [2:0] $end
+$var wire 4 : Carry_out [3:0] $end
+$var wire 1 ; Carry $end
+$upscope $end
+$scope module CLA2 $end
+$var wire 3 < C [2:0] $end
+$var wire 1 = Cin $end
+$var wire 3 > D [2:0] $end
+$var wire 3 ? Gen [2:0] $end
+$var wire 3 @ Propagate [2:0] $end
+$var wire 3 A RES [2:0] $end
+$var wire 1 & mode $end
+$var wire 3 B D_situation [2:0] $end
+$var wire 4 C Carry_out [3:0] $end
+$var wire 1 D Carry $end
+$upscope $end
+$scope module CLA3 $end
+$var wire 3 E C [2:0] $end
+$var wire 1 F Cin $end
+$var wire 3 G D [2:0] $end
+$var wire 3 H Gen [2:0] $end
+$var wire 3 I Propagate [2:0] $end
+$var wire 3 J RES [2:0] $end
+$var wire 1 & mode $end
+$var wire 3 K D_situation [2:0] $end
+$var wire 4 L Carry_out [3:0] $end
+$var wire 1 M Carry $end
+$upscope $end
+$scope module CLA4 $end
+$var wire 3 N C [2:0] $end
+$var wire 1 O Cin $end
+$var wire 3 P D [2:0] $end
+$var wire 3 Q Gen [2:0] $end
+$var wire 3 R Propagate [2:0] $end
+$var wire 3 S RES [2:0] $end
+$var wire 1 & mode $end
+$var wire 3 T D_situation [2:0] $end
+$var wire 4 U Carry_out [3:0] $end
+$var wire 1 V Carry $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0V
+b0 U
+b0 T
+b0 S
+b0 R
+b0 Q
+b0 P
+0O
+b0 N
+0M
+b0 L
+b0 K
+b0 J
+b0 I
+b0 H
+b0 G
+0F
+b0 E
+0D
+b0 C
+b0 B
+b0 A
+b0 @
+b0 ?
+b0 >
+0=
+b0 <
+0;
+b0 :
+b0 9
+b0 8
+b0 7
+b0 6
+b0 5
+04
+b0 3
+02
+b0 1
+b0 0
+b0 /
+b0 .
+b0 -
+b0 ,
+b0 +
+b0 *
+b0 )
+b0 (
+b0 '
+0&
+b0 %
+b0 $
+0#
+0"
+b0 !
+$end
+#10
+b11 :
+14
+b1 *
+12
+b1110 1
+b1 -
+b111 0
+b0 /
+b10000 !
+b10000 )
+b10 8
+b110 .
+b1 7
+b111 ,
+b1 +
+b1 3
+b111 %
+b111 (
+b1001 $
+b1001 '
+#20
+1"
+b111 U
+1O
+1M
+b1111 L
+1F
+1D
+b1111 C
+1=
+1;
+14
+b1111 *
+12
+b1110 1
+b1111 :
+b1 0
+b0 /
+b0 8
+b0 A
+b0 J
+b100000000000000 !
+b100000000000000 )
+b100 S
+b1 -
+b110 .
+b111 7
+b111 @
+b111 I
+b11 R
+b1 ,
+b111 +
+b111 3
+b111 <
+b111 E
+b11 N
+b1 %
+b1 (
+b11111111111111 $
+b11111111111111 '
+#30
+0"
+1#
+b11111 *
+1V
+b1111 U
+b1000 1
+b100 0
+b10 /
+b10 !
+b10 )
+b0 S
+b100 -
+b10 .
+b111 R
+b100 ,
+b110 +
+b111 N
+b100 %
+b100 (
+b111111111111110 $
+b111111111111110 '
+#40
+1"
+0=
+0F
+0O
+04
+0;
+0D
+0M
+b10000 *
+02
+b0 :
+b0 C
+b0 L
+b1000 U
+b100 Q
+b0 1
+b0 0
+b100 T
+b0 /
+b0 8
+b0 A
+b0 J
+b10000000000000 !
+b10000000000000 )
+b10 S
+b0 -
+b0 .
+b0 7
+b0 @
+b0 I
+b10 R
+b0 ,
+b100 P
+b0 +
+b0 3
+b0 <
+b0 E
+b110 N
+b100000000000000 %
+b100000000000000 (
+b110000000000000 $
+b110000000000000 '
+#50
+b1 C
+1=
+b0 /
+1;
+0"
+14
+0#
+12
+b11 *
+0V
+b1111 :
+b0 U
+b111 A
+b111 J
+b11 8
+b111111111011000 !
+b111111111011000 )
+b111 S
+b110 @
+b111 I
+b0 -
+b111 .
+b11 6
+b100 7
+b0 Q
+b111 R
+b1 0
+b111 9
+b110 B
+b111 K
+b111 T
+b110 ,
+b1 >
+b0 P
+b110 +
+b11 3
+b0 N
+b1111 1
+1&
+b1000110 %
+b1000110 (
+b11110 $
+b11110 '
+#60
+1"
+1O
+1M
+1=
+b0 J
+1;
+b1111 L
+1F
+1D
+b1111 C
+b1111 :
+14
+b1111 *
+12
+b0 A
+b1111 1
+b111 @
+b111 U
+b111 0
+b111 B
+b1 T
+b0 /
+b0 8
+b100000000000000 !
+b100000000000000 )
+b100 S
+b111 .
+b0 6
+b111 7
+b0 Q
+b11 R
+b0 ,
+b0 >
+b110 P
+b0 +
+b0 3
+b10 N
+b110000000000000 %
+b110000000000000 (
+b10000000000000 $
+b10000000000000 '
+#70
+0"
+1#
+1V
+b1110 :
+04
+b11110 *
+02
+b1 1
+b1111 U
+b0 0
+b111 T
+b11 /
+b0 8
+b11 !
+b11 )
+b0 S
+b0 -
+b10 .
+b1 6
+b110 7
+b111 R
+b111 ,
+b0 P
+b10 +
+b1 3
+b0 N
+b111 %
+b111 (
+b1010 $
+b1010 '
+#80
+1"
+b1000 U
+0O
+0M
+b111 J
+b0 L
+0F
+0D
+b111 A
+b0 C
+0=
+b10000 *
+0;
+b111 /
+b110 .
+b0 :
+b100 0
+b111 8
+b11111111111111 !
+b11111111111111 )
+b11 S
+b0 6
+b111 7
+b100 Q
+b11 R
+b11 ,
+b0 3
+b100 N
+b11 %
+b11 (
+b100000000000010 $
+b100000000000010 '
+#90
