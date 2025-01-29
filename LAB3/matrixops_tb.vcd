@@ -1,0 +1,179 @@
+$date
+	Mon Dec  9 10:48:25 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module matrixops_tb $end
+$var wire 1 ! Z $end
+$var parameter 64 " FP $end
+$var parameter 32 # HP $end
+$var reg 2 $ X [1:0] $end
+$var reg 2 % Y [1:0] $end
+$var reg 1 & clk $end
+$var reg 1 ' enter $end
+$var reg 1 ( rst $end
+$scope module dut $end
+$var wire 2 ) X [1:0] $end
+$var wire 2 * Y [1:0] $end
+$var wire 1 & clk $end
+$var wire 1 ' enter $end
+$var wire 1 ( rst $end
+$var parameter 2 + S0 $end
+$var parameter 2 , S1 $end
+$var parameter 2 - S2 $end
+$var parameter 2 . S3 $end
+$var reg 1 ! Z $end
+$var reg 2 / cState [1:0] $end
+$var reg 3 0 input_count [2:0] $end
+$var reg 1 1 other_Z $end
+$var integer 32 2 i [31:0] $end
+$var integer 32 3 j [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b11 .
+b10 -
+b1 ,
+b0 +
+b101 #
+b1010 "
+$end
+#0
+$dumpvars
+b100 3
+b100 2
+01
+b0 0
+b0 /
+b0 *
+b0 )
+1(
+0'
+1&
+b0 %
+b0 $
+0!
+$end
+#5
+0&
+#9
+1'
+0(
+#10
+b1 /
+1&
+#15
+0&
+#19
+0'
+#20
+b10 /
+1&
+#25
+0&
+#29
+1'
+b1 %
+b1 *
+#30
+b1 0
+1&
+#35
+0&
+#39
+b11 %
+b11 *
+b10 $
+b10 )
+#40
+b10 0
+1&
+#45
+0&
+#49
+b10 %
+b10 *
+b11 $
+b11 )
+#50
+b11 0
+1&
+#55
+0&
+#59
+b0 %
+b0 *
+b1 $
+b1 )
+#60
+b100 0
+1&
+#65
+0&
+#69
+b0 $
+b0 )
+#70
+b11 /
+b101 0
+1&
+#75
+0&
+#79
+b1 %
+b1 *
+b1 $
+b1 )
+#80
+1&
+#85
+0&
+#89
+0'
+#90
+1&
+#95
+0&
+#100
+1&
+#105
+0&
+#109
+b0 %
+b0 *
+b0 $
+b0 )
+#110
+1&
+#115
+0&
+#119
+1'
+#120
+11
+1&
+#125
+0&
+#129
+b10 $
+b10 )
+#130
+1!
+01
+1&
+#135
+0&
+#139
+0'
+#140
+0!
+1&
+#145
+0&
+#149
